@@ -1,0 +1,19 @@
+
+
+Part I - Describe all Joins
+
+
+    1. INNER JOIN - Returns records that have matching values in both tables
+    2. LEFT (OUTER) JOIN - Returns all records from the left table, and the matched records from the right table.
+	Those with no matching values from the right table are returned as NULL in the result-set.
+    3. RIGHT (OUTER) JOIN - Returns all records from the right table, and the matched records from the left table.
+	Those with no matching values from the left table are returned as NULL in the result-set.
+    4. FULL (OUTER) JOIN - Returns all records when there is a match in either left or right table.  
+    5. SELF JOIN - the same table is joined to itself and are distinguished from each other by giving each table an alias.
+
+PART II - 
+A left join is used, where the vendor_table is the left table and the yarn_table is the right table. 
+All records from the left table are returned, along with the matching records from the right table.
+Any records from the vendor-table with no corresponding matching record from the right table is returned
+as NULL in the result-set.
+

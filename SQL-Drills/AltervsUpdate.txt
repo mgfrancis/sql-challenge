@@ -1,0 +1,10 @@
+
+
+Alter vs Update
+Part 1
+Explain the difference between alter and update in SQL statements.
+The Alter statement is used to add and drop/delete columns as well as modify column properties.
+The Update statement is used to modify the records in a table.
+Part 2
+1. ALTER TABLE <table name> RENAME COLUMN department_id TO dept-id;
+2. ALTER TABLE <table name> ADD annual_salary INT NOT NULL;
